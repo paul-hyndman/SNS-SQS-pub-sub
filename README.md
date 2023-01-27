@@ -1,8 +1,8 @@
 # Project highlights how using a Python Lambda and Java REST API the following:
 #   - Create AWS infrastructure using Python and CDK
-#   - Create a Lambda function that is a topic listener, which in turn publishes message to an SQS queue
+#   - Create a Lambda function that is an SNS topic listener, which in turn publishes message to an SQS queue
 #       - This use case shows how message can be further processed as opposed to subscribing queue directly to SNS topic
-#   - From REST API, publish message to a topic using AWS SDK
+#   - From REST API, publish message to SNS topic using AWS SDK
 #   - Also from same REST API (for project simplicity) implement an SQS queue listener using AWS SDK
 
 # Project creates AWS artifacts:
