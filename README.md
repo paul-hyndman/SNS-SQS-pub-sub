@@ -15,12 +15,12 @@
 #    http://localhost:1025/order
 
 # PUT request body example:
-# {
-#    "orderId" : "9",
-#    "customerId" : "999",
-#    "sku" : "110-rrgt555",
-#    "quantity" : 5
-# }
+ {
+    "orderId" : "9",
+    "customerId" : "999",
+    "sku" : "110-rrgt555",
+    "quantity" : 5
+ }
 
 
 Requirements:
