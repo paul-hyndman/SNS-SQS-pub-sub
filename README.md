@@ -5,7 +5,7 @@
 #   - From REST API, publish message to a topic using AWS SDK
 #   - Also from same REST API (for project simplicity) implement an SQS queue listener using AWS SDK
 
-#s Project creates AWS artifacts:
+# Project creates AWS artifacts:
 #  - SNS Topic
 #  - SQS Queue
 #  - Python Lambda function subscribed to Topic
